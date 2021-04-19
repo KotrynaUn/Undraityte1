@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Undraityte1</string>
+    <string name="app_name">Undraityte. Labaratorinis darbas Nr.1</string>
+    <string name="txt_labas">LABAS!</string>
+    <string name="btn_text">Keisk tekstą!</string>
+    <string name="btn_color">Keisk spalvą!</string>
 </resources>
