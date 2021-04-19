@@ -3,4 +3,5 @@
     <string name="txt_labas">LABAS!</string>
     <string name="btn_text">Keisk tekstą!</string>
     <string name="btn_color">Keisk spalvą!</string>
+    <string name="changed_label_caption">ATE!</string>
 </resources>
