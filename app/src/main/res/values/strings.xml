@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Blogas pavadinimas</string>
+    <string name="app_name">Undraityte. Labaratorinis darbas Nr.1</string>
     <string name="txt_labas">LABAS!</string>
     <string name="btn_text">Keisk tekstą!</string>
     <string name="btn_color">Keisk spalvą!</string>
