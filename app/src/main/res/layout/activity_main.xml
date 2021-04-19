@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txt_labas"
-        android:textColor="#FFEB3B"
+        android:textColor="@color/yellow"
         android:textSize="45sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,13 +31,13 @@
         android:background="#FFEB3B"
         android:backgroundTint="#009688"
         android:foregroundTint="#009688"
+        android:onClick="onbtnclick"
         android:text="@string/btn_text"
         android:textColor="#FBF9F9"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvMain"
-        app:layout_constraintStart_toEndOf="@+id/btnTwo"
-        android:onClick="onbtnclick"/>
+        app:layout_constraintStart_toEndOf="@+id/btnTwo" />
 
     <Button
         android:id="@+id/btnTwo"
@@ -57,5 +57,18 @@
         app:layout_constraintTop_toTopOf="@+id/btnOne"
         app:layout_constraintVertical_bias="0.0"
         android:onClick="onbtnclick2"/>
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:background="#E91E63"
+        android:backgroundTint="#E91E63"
+        android:text="@string/btn_reset"
+        app:iconTint="#E91E63"
+        app:layout_constraintEnd_toEndOf="@+id/btnOne"
+        app:layout_constraintTop_toBottomOf="@+id/tvMain"
+        android:onClick="onbtnclick3"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

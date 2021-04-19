@@ -24,4 +24,9 @@ public class MainActivity extends AppCompatActivity {
     public void onbtnclick2(View view) {
         tvMain.setTextColor(getResources().getColor(R.color.red));
     }
+
+    public void onbtnclick3(View view) {
+        this.tvMain.setText(R.string.txt_labas);
+        tvMain.setTextColor(getResources().getColor(R.color.yellow));
+    }
 }
